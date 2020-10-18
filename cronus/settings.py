@@ -27,7 +27,7 @@ LOG_FILE = os.path.join(BASE_DIR, "logs/cronus.log")
 SECRET_KEY = '^5*xsd7ayns6t9z7(2y&xd4jhu*0-fjk!0xr2jnp+rb*)c_t-t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -181,9 +181,9 @@ CORS_ORIGIN_ALLOW_ALL = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.163.com')
 EMAIL_PORT = os.getenv('EMAIL_PORT', 25)
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '18627894580@163.com')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', 'jinhonghui7869')
-EMAIL_FROM = os.getenv('EMAIL_FROM', 'store<18627894580@163.com')
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')
+EMAIL_FROM = os.getenv('EMAIL_FROM', '')
 
 
 LOCALHOST = os.getenv('LOCALHOST', 'http://localhost:8081')
