@@ -19,7 +19,7 @@ redis
 docker build -t cronus .
 ```
 在运行cronus之前，请选确保MYSQL和Redis已经运行起来。MYSQL中创建好名为cronus的数据库，编码格式为UTF-8  
-![avatar](image/database.png)
+![database](/image/database.png)  
 
 运行cronus 
 ```
