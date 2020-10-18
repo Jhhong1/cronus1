@@ -1,0 +1,15 @@
+[run]
+omit =
+    */__init__.py
+    */*.sh
+    */register_app_create_superuser.py
+    *apps.py,
+    *migrations/*,
+    *settings*,
+    *tests.py,
+    *urls.py,
+    *wsgi*,
+    manage.py,
+    *admin.py,
+    *exceptions.py,
+    *celery.py
